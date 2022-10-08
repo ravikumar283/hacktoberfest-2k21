@@ -1,19 +1,17 @@
 #include<iostream>
-
 using namespace std;
 
 int main(){
-    int n;
-    int pos;
+    int n, pos;
     
-cout<<"Enter any integer: ";
+cout<<"Enter any integer you want: ";
 cin>>n;
-cout<<endl<<"Enter bit position for clear bit: ";
+cout<<"Enter bit position for clear bit:"<<endl;
 cin>>pos;
 
 int mask = ~(1<<pos); 
 
-cout<<endl<<"Integer after clear bit at position is: "<<(n & mask);
+cout<<"Integer after clear bit at position is: "<<(n & mask)<<endl;
 
 return 0;
 }

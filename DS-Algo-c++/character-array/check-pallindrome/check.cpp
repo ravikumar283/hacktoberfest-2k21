@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio>
 
 using namespace std;
 
@@ -9,8 +10,7 @@ int main()
     cin >> n;
     char array[n + 1];
 
-    cout << endl
-         << "Enter any char for check pallindrome char: ";
+    cout << endl << "Enter any char for check pallindrome char: ";
     cin >> array;
 
     bool check = 1;
@@ -25,12 +25,10 @@ int main()
     }
 
     if (check == true)
-        cout << endl
-             << "Char is pallindrome";
+        cout << endl << "Char is pallindrome";
 
     else
-        cout << endl
-             << "Not pallindrome";
+        cout << endl << "Not pallindrome";
 
     return 0;
 }
