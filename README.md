@@ -1,3 +1,3 @@
 # hacktoberfest-2k21
 
-## come and participate in this repo and share your good projects 
+## Come and Participate in This repo and share your Good Projects 
